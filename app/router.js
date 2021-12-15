@@ -9,7 +9,6 @@ module.exports = app => {
         const {
             register, login,
         } = controller.user
-        console.log(register)
         router.post('/register', register)
         router.post('/login', login)
 
